@@ -305,7 +305,7 @@ a:focus {
 
 /*small screen*/
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 20em) {
 
   .nav a {
     text-align: center;
@@ -322,6 +322,10 @@ a:focus {
     font-size: .80rem;
     text-align: right;
   }
+
+  .section {
+  padding: 2rem;
+}
 
   .nav-footer li:last-child::after {
     content: none;
