@@ -56,9 +56,13 @@ body {
     text-align: center;
     padding: 2px 6px 2px 6px;
     height: 2rem;
-    width: 12rem;
-    color: white;
+    width: 12rem;    
   }
+
+.buttonlink a {
+  color: white;
+  text-decoration: none;
+}
 
 footer {
   background-color: #970508;
@@ -182,6 +186,17 @@ blockquote cite {
 .nav a:active {
   background-color: none;
   color: #7c0508;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:link,
+a:visited {
+  color: #666666;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
 button a,
@@ -309,6 +324,7 @@ a:focus {
 
   .nav a {
     text-align: center;
+    margin: auto;
   }
 
   .nav li {
@@ -320,16 +336,16 @@ a:focus {
   .nav-footer a:visited {
     display: inline-block;
     font-size: .80rem;
-    text-align: right;
   }
+
 
   .section {
-  padding: 2rem;
+  padding: 1rem;
 }
 
-  .nav-footer li:last-child::after {
-    content: none;
-  }
+.form {
+  padding: 1rem;
+}
 
   .copyright {
     text-align: center;
@@ -345,6 +361,10 @@ a:focus {
 
   p {
     text-align: left;
+  }
+
+  .sectionfeatures {
+    padding: 1.25rem;
   }
 
 }
