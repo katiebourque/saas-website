@@ -57,6 +57,7 @@ body {
     padding: 2px 6px 2px 6px;
     height: 2rem;
     width: 12rem;
+    color: white;
   }
 
 .logo {
@@ -101,6 +102,15 @@ body {
   background-size: 100%;
   padding: 7rem;
   background-repeat: none;
+}
+
+.sectionfeatures {
+  background-color: #efefef;
+  padding: 3rem;
+}
+
+.sectionreviews {
+  background-color: white;
 }
 
 h1{
@@ -198,16 +208,7 @@ button a:visited {
   font-size: 1rem;
 }
 
-.section-dark {
-  background-color: #ccc;
-}
-
-.section-mid {
-  background-color: #e2e2e2;
-}
-
 .section {
-  background-color: #efefef;
   padding: 4rem;
 }
 
