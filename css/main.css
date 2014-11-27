@@ -1,0 +1,329 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 110%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 120%;
+  }
+
+}
+
+@media only screen and (min-width: 120em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.buttonlink
+  {display: block;
+    margin: 0 auto;
+    border: solid 1px white;
+    border-radius: 3px;
+    text-align: center;
+    padding: 2px 6px 2px 6px;
+    height: 2rem;
+    width: 12rem;
+  }
+
+.logo {
+    width: 2rem;
+    height: auto;
+    float: left;
+    margin: 1.5rem 5%;
+    display: block;
+}  
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.masthead {
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+}
+
+.nav {
+  padding: 0;
+  clear: both;
+}
+
+.nav li {
+  display: block;
+}
+
+.blurb {
+  max-width: 35em;
+  margin: 0 auto;
+}
+
+.section-intro {
+  /*background-image: url("/Users/apple/Documents/GRAPHIC DESIGN II/saas-prototype/assets/edits/intropic.jpg");*/
+  background-color: #666666;
+  background-position:  absolute;
+  background-size: 100%;
+  padding: 7rem;
+  background-repeat: none;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  line-height: 1.8rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form {
+  padding: 3rem;
+}
+
+h3 {
+  text-align: center;
+  line-height:1.75rem;
+}
+
+h4 {
+  text-align: center;
+  line-height:1rem;
+  font-size: .75rem;
+}
+
+
+
+
+
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 1.75rem;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.35em 1rem;
+    line-height: 2rem;
+    color: #383838;
+    text-align:left;
+}
+
+
+blockquote cite {
+    color: #999999;
+    font-size: 1rem;
+    display: block;
+    margin-top: 1rem;
+}
+
+.intro-text {
+  text-align: center;
+  color: white;
+}
+
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+
+  color: #666666;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  background-color: #666666;
+  color: #fff;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  color:#666666;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+button a,
+button a:hover,
+button a:focus,
+button a:active,
+button a:link,
+button a:visited {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.section-dark {
+  background-color: #ccc;
+}
+
+.section-mid {
+  background-color: #e2e2e2;
+}
+
+.section {
+  background-color: #efefef;
+  padding: 4rem;
+}
+
+.intro {
+  text-align: center;
+}
+
+.iconcap {
+  text-align: center;
+}
+
+button {
+  color: white;
+  background-color: #060606;
+  border: solid white 1px;
+  font-size: 1rem;
+  padding: .5rem;
+  border-radius: 5px;
+  margin: 0 auto;
+  float: left;
+}
+
+
+a:focus {
+  outline: 3px solid #000;
+}
+
+.skip-links {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+
+}
+
+.skip-links a {
+  position:absolute;
+  top: -3em;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5em 0.75em;
+  font-weight: bold;
+  text-decoration: none;
+  font-size:1.25em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+.formnote {
+  text-align: left;
+  font-size: .5rem;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .nav a {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .nav-footer a,
+  .nav-footer a:link,
+  .nav-footer a:visited {
+    display: inline-block;
+    font-size: .80rem;
+    text-align: right;
+  }
+
+  .nav-footer li:last-child::after {
+    content: none;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .title,
+  .nav {
+    text-align: right;
+  }
+
+  .copyright {
+    text-align: left;
+  }
+
+  .nav-footer {
+    text-align: right;
+  }
+
+  .nav a,
+  .nav a:link,
+  .nav a:visited {
+  display: block;
+
+  color: #666666;
+  text-decoration: none;
+  text-align: right;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  background-color: #666666;
+  color: #fff;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
