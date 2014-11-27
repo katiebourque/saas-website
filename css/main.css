@@ -60,6 +60,10 @@ body {
     color: white;
   }
 
+footer {
+  background-color: #970508;
+}
+
 .logo {
     width: 2rem;
     height: auto;
@@ -75,6 +79,7 @@ body {
 
 .masthead {
   overflow: hidden;
+  background-color: #970508;
 }
 
 .title {
@@ -138,10 +143,6 @@ h4 {
   font-size: .75rem;
 }
 
-
-
-
-
 blockquote {
     font-family: Georgia, serif;
     font-size: 1.75rem;
@@ -171,8 +172,7 @@ blockquote cite {
 .nav a:link,
 .nav a:visited {
   display: block;
-
-  color: #666666;
+  color: #ffffff;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -180,22 +180,8 @@ blockquote cite {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  background-color: #666666;
-  color: #fff;
-}
-
-a,
-a:link,
-a:visited,
-a:active {
-  color:#666666;
-  text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  color: #000;
-  text-decoration: none;
+  background-color: none;
+  color: #7c0508;
 }
 
 button a,
@@ -234,6 +220,7 @@ button {
 
 a:focus {
   outline: 3px solid #000;
+  background-color: #666666;
 }
 
 .skip-links {
@@ -263,6 +250,61 @@ a:focus {
   font-size: .5rem;
 }
 
+
+/*medium screen*/
+
+@media only screen and (min-width: 38em) {
+
+  .section-intro {
+  /*background-image: url("/Users/apple/Documents/GRAPHIC DESIGN II/saas-prototype/assets/edits/intropic.jpg");*/
+  background-color: #666666;
+  background-position:  absolute;
+  background-size: 100%;
+  padding: 7rem;
+  background-repeat: none;
+}
+
+
+  .title,
+  .nav {
+    text-align: right;
+  }
+
+  .copyright {
+    text-align: left;
+  }
+
+  .nav-footer {
+    text-align: right;
+  }
+
+  .nav a,
+  .nav a:link,
+  .nav a:visited {
+  display: block;
+
+  color: #ffffff;
+  text-decoration: none;
+  text-align: right;
+}
+
+.intro-text {
+  text-align: center;
+  color: white;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  background-color: none;
+  color: #fff;
+}
+
+}
+
+
+/*small screen*/
+
 @media only screen and (min-width: 25em) {
 
   .nav a {
@@ -289,42 +331,34 @@ a:focus {
     text-align: center;
   }
 
-}
-
-@media only screen and (min-width: 38em) {
-
-  .title,
-  .nav {
-    text-align: right;
-  }
-
-  .copyright {
+    .intro-text {
     text-align: left;
   }
 
-  .nav-footer {
-    text-align: right;
+  .section-intro {
+    padding: 2rem;
   }
 
-  .nav a,
-  .nav a:link,
-  .nav a:visited {
-  display: block;
-
-  color: #666666;
-  text-decoration: none;
-  text-align: right;
-}
-
-.nav a:hover,
-.nav a:focus,
-.nav a:active {
-  background-color: #666666;
-  color: #fff;
-}
+  p {
+    text-align: left;
+  }
 
 }
+
 
 @media only screen and (min-width: 60em) {
+.section-intro {
+  /*background-image: url("/Users/apple/Documents/GRAPHIC DESIGN II/saas-prototype/assets/edits/intropic.jpg");*/
+  background-color: #666666;
+  background-position:  absolute;
+  background-size: 100%;
+  padding: 7rem;
+  background-repeat: none;
+}
+
+.intro-text {
+    text-align: center;
+  }
+}
 
 }
