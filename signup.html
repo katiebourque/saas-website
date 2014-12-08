@@ -2,11 +2,12 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>NutriFIT · Free Sign Up</title>
+  <title>NutriFIT · Sign Up Today</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/typography.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -15,10 +16,10 @@
     <li><a href="#main">Skip to the main content</a></li>
   </ul>
 
-<header role="banner id="top" class="grid grid-middle section-dark masthead  pad-b-1-2">
+<header role="banner" id="top" class="grid grid-middle section-dark masthead  pad-b-1-2">
   <div class="unit gutter-1-4 unit-xs-1-2 unit-s-1-2 unit-m-1-3 unit-l-1-3">
 
-<div class="logo"> <a href="index.html"><img src="assets/logoplaceholder.png"> <alt="NutriFit Logo"></a></div>
+<div class="logo"> <a href="index.html"><img src="logos/logo.svg"> <alt="NutriFit Logo"></a></div>
 
   </div>
 
@@ -26,7 +27,7 @@
     <ul class="nav giga push-0">
       <li><a class="island-1-2" href="pricing.html">Pricing</a></li>
       <li><a class="island-1-2" href="login.html">Login</a></li>
-      <li><a class="island-1-2" href="signup.html">Sign Up</a></li>
+      <li><a class="signup-link island-1-2" href="signup.html">Sign Up</a></li>
     </ul>
   </nav>
 </header>
@@ -34,15 +35,17 @@
 <main role="main">
   <div class="section-mid">
 
-  <h2 class="gutter pad-t"> PREMIUM SIGN UP </h1>
-
 <div class="form">
 
 
 <div class="island">
+    <h2 class="gutter pad-t-2"> SIGN UP </h1>
 <div class"unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
     <p>Choose your plan:</p>
-    <input type="radio" id="no" name="premium">
+    
+     <div><input type="radio" id="basic" name="premium">
+    <label for "vip">NutriFIT Basic - Free</label>
+  </div><input type="radio" id="pro" name="premium">
     <label for "pro">NutriFIT Pro – 19.99/mo</label></div>
 
     <div class"unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
@@ -54,41 +57,41 @@
 
 
 <div class="gutter">
-    <label class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" for"name">Your Full Name</label> 
-    <input class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2"type="name" class="field" id="name"></div> 
+    <label class="toplabel" for"name">Your Full Name</label> 
+    <input type="name" class="field" id="name"></div> 
 
 <div class="gutter">
-    <label class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" for"phone">Phone Number</label> 
-    <input class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2"type="name" class="field" id="phone"></div> 
+    <label class="toplabel" for"phone">Phone Number</label> 
+    <input type="name" class="field" id="phone"></div> 
 
 <div class="gutter">
-    <label class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" for"E-mail">E-mail Address</label> 
-    <input class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2"type="e-mail" class="field" id="email"></div> 
+    <label class="toplabel" for"E-mail">E-mail Address</label> 
+    <input type="e-mail" class="field" id="email"></div> 
 
   <div class="gutter">
-    <label class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" for"Username">Create Username</label> 
-    <input class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2"type="name" class="field" id="name"></div> 
+    <label class="toplabel" for"Username">Create Username</label> 
+    <input type="name" class="field" id="name"></div> 
 
-  <div class="gutter"><label class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" for"password">Create Password</label> 
-  <input class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" type="password" class="field" id="password"></div>
+  <div class="gutter"><label class="toplabel" for"password">Create Password</label> 
+  <input type="password" class="field" id="password"></div>
     
   <div class="formnote milli gutter">PASSWORDS MUST BE 8-12 CHARACTERS AND CONTAIN ATLEAST ONE NUMBER AND ONE UPPERCASE LETTER.</div>
 
-   <div class="gutter"><label class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" for"password">Re-enter your password</label> 
-  <input class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" type="password" class="field" id="password"></div>
+   <div class="gutter"><label class="toplabel" for"password">Re-enter your password</label> 
+  <input type="password" class="field" id="password"></div>
   <div class="formnote milli gutter">BOTH OF YOUR PASSWORDS MUST MATCH.</div>
 
    <div class="gutter">
-    <label class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" for"creditcard">Credit card number</label> 
-    <input class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2"type="name" class="field" id="username"></div> 
+    <label class="toplabel" for"creditcard">Credit card number</label> 
+    <input type="name" class="field" id="username"></div> 
 
      <div class="gutter">
-    <label class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" for"exp">Credit card expiration date</label> 
-    <input class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2"type="name" class="field" id="exp"></div>
+    <label class="toplabel" for"exp">Credit card expiration date</label> 
+    <input type="name" class="field" id="exp"></div>
 
     <div class="gutter">
-    <label class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" for"code">Card security code</label> 
-    <input class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2"type="name" class="field" id="code"></div> 
+    <label class="toplabel" for"code">Card security code</label> 
+    <input type="name" class="field" id="code"></div> 
 
  
   <div class="island"><button><a href="thanks.html">Create My Account</a></button></div>
@@ -108,24 +111,31 @@ By submitting, you agree to the terms of service & refund policy and the privacy
 
 </main>
 
+
 <footer role="contentinfo" class="grid island-1-2 section-dark">
-  <div class="unit micro unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
-    <p class="copyright push-0">© 2014 NutriFIT
+
+<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
+        <a href="http://www.twitter.com"><img class="smicon" src="icons/twitter.svg" alt="twitter"></a>
+        <a href="http://www.facebook.com"><img class="smicon" src="icons/fb.svg" alt="facebook">
+        <a href="http://www.instagram.com"><img class="smicon" src="icons/insta.svg" alt="instagram"></a>
+      </div>
+
       <ul class="skip-links">
       <li><a href="#top">Back to top</a></li></ul>
-    </p>
-  </div>
   <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
     <nav>
       <ul class="nav nav-footer milli push-0">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="pricing.html">Pricing</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="signup.html">Sign Up</a></li>
+        <li class="pad-t gutter"><a href="index.html">Home</a></li>
+        <li class="pad-t gutter"><a href="pricing.html">Pricing</a></li>
+        <li class="pad-t gutter"><a href="login.html">Login</a></li>
+        <li class="pad-t gutter"><a href="signuppaid.html">Sign Up</a></li>
       </ul>
     </nav>
   </div>
-</footer>
 
+   <div class="unit micro unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+    <p class="copyright push-0">© 2014 NutriFIT</p>
+      </div>
+</footer>
 </body>
 </html>
