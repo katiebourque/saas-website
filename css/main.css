@@ -146,14 +146,15 @@ footer {
 
 
 .section-intro {
-  background-image: url("/Users/apple/Desktop/saas-website/assets/edits/abs.jpg");;
+  background-image: url("..saas-website/assets/edits/abs.jpg");;
   background-color: #666666;
   background-size: cover;
   background-repeat: none;
+  height: 650px;
   width: 100%;
 }
 
-.sectionfeatures {
+.section {
   background-color: #efefef;
   padding: 3rem;
 }
@@ -245,6 +246,7 @@ blockquote cite {
 
 }
 
+
 p { 
 
   }
@@ -264,7 +266,7 @@ p {
 .nav a:hover,
 .nav a:focus,
 .nav a:active, {
-  background-color: #7c0508;
+  background-color: #750406;
   font-weight: 200;
   border-radius: 3px;
 }
@@ -320,8 +322,10 @@ button {
 
 
 a:focus {
-  outline: 3px solid #000;
-  background-color: #666666;
+  border: 3px solid #000;
+  background-color: #630406;
+  border-radius: 4px;
+  padding: .50rem;
 }
 
 .skip-links {
@@ -373,48 +377,11 @@ a:focus {
   width: 100%;
 }
 
-/*m-s screen*/
-
-@media only screen and (min-width: 38em) {
-
-  .section-intro {
-  background-image: url("/Users/apple/Desktop/saas-website/assets/edits/abs.jpg");;
-  background-color: #666666;
-  background-size: cover;
-  background-repeat: none;
-  height: 500px;
-  width: 100%;
-  padding-top: 10rem;
+.nav-footer li {
+  display: inline-block;
 }
 
-
-  .title,
-  .nav {
-    text-align: right;
-  }
-
-  .nav-footer {
-    text-align: right;
-  }
-
-  .nav a,
-  .nav a:link,
-  .nav a:visited {
-  display: block;
-  font-weight: 200;
-  color: #ffffff;
-  text-decoration: none;
-  text-align: right;
-}
-
-.intro-text {
-  text-align: center;
-  color: white;
-  font-weight: 300;
-}
-
-
-/*small screen*/
+/*small*/
 
 @media only screen and (min-width: 20em) {
 
@@ -463,9 +430,17 @@ h1 {
   }
 
 .section-intro {
-  background-image: url("/Users/apple/Desktop/saas-website/assets/edits/abs.jpg");;
+  background-image: url("../assets/edits/abs.jpg");;
   background-repeat: none;
   width: 100%;
+}
+
+.masthead {
+  position: absolute;
+}
+
+.logo {
+  width: 60%;
 }
 
   p {
@@ -477,10 +452,52 @@ h1 {
     padding: 1.25rem;
   }
 
+/*m screen*/
+
+@media only screen and (min-width: 38em) {
+
+  .section-intro {
+  background-image: url("../assets/edits/abs.jpg");;
+  background-color: #666666;
+  background-size: cover;
+  background-repeat: none;
+  height: 500px;
+  width: 100%;
+  padding-top: 10rem;
+}
+
+
+  .title,
+  .nav {
+    text-align: right;
+  }
+
+  .nav-footer {
+    text-align: right;
+  }
+
+  .nav a,
+  .nav a:link,
+  .nav a:visited {
+  display: block;
+  font-weight: 200;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: right;
+}
+
+.intro-text {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
+
+
+
 
 @media only screen and (min-width: 60em) {
 .section-intro {
-  background-image: url("/Users/apple/Desktop/saas-website/assets/edits/abs.jpg");;
+  background-image: url("../assets/edits/abs.jpg");;
   background-size: cover;
   background-repeat: none;
   width: 100%;
