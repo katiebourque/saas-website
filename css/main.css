@@ -47,6 +47,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .signup-link {
@@ -94,8 +95,6 @@ li {
   border-radius: 3px;
 }
 
-
-
 footer {
   background-color: #970508;
 }
@@ -141,7 +140,7 @@ footer {
 
 .blurb {
   max-width: 35em;
-  margin: 0 auto;
+  margin: 0% auto;
   font-weight: 200;
 }
 
@@ -151,7 +150,7 @@ footer {
   background-color: #666666;
   background-size: cover;
   background-repeat: none;
-  width:100%;
+  width: 100%;
 }
 
 .sectionfeatures {
@@ -207,7 +206,6 @@ h3 {
 figcaption {
   text-align: left;
   font-family: oswald, sans-serif;
-  font-size: 1.5 rem;
   font-weight: 300;
 }
 
@@ -304,6 +302,8 @@ a:visited {
 
 .icon {
   padding: 2rem;
+  width: 75%;
+  margin: 0% auto;
 }
 
 button {
@@ -372,7 +372,7 @@ a:focus {
   width: 100%;
 }
 
-/*medium screen*/
+/*m-s screen*/
 
 @media only screen and (min-width: 38em) {
 
@@ -382,6 +382,8 @@ a:focus {
   background-size: cover;
   background-repeat: none;
   height: 500px;
+  width: 100%;
+  padding-top: 10rem;
 }
 
 
@@ -436,9 +438,13 @@ a:focus {
   }
 
 
-
   .section {
   padding: 1rem;
+
+}
+
+.section-intro {
+  padding-top:5rem;
 }
 
 
@@ -476,6 +482,7 @@ h1 {
   background-image: url("/Users/apple/Desktop/saas-website/assets/edits/abs.jpg");;
   background-size: cover;
   background-repeat: none;
+  width: 100%;
 }
 
 .intro-text {

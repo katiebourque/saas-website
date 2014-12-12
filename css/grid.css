@@ -1,6 +1,6 @@
 .grid {
   margin: 0;
-  padding-top: 90px;
+  padding: 0;
   letter-spacing: -0.31em;
   text-rendering: optimizespeed;
   display: -webkit-flex;
