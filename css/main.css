@@ -206,6 +206,7 @@ h3 {
 figcaption {
   text-align: left;
   font-family: oswald, sans-serif;
+  font-size: 1.5 rem;
   font-weight: 300;
 }
 
@@ -444,7 +445,7 @@ a:focus {
 }
 
 .section-intro {
-  padding-top:5rem;
+  padding-top: 5rem;
 }
 
 
